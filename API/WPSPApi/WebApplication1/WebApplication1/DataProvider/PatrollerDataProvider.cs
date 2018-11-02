@@ -12,9 +12,9 @@ namespace WPSPApi.DataProvider
 {
     public class PatrollerDataProvider : IPatrollerDataProvider
     {
-        //private readonly string connectionString = @"Server=ISARCH009740\WORKTEST;Database=WPSPOrig;Trusted_Connection=True;";
+        //private readonly string connectionString = @"Server=xxxxx\WORKTEST;Database=WPSPOrig;Trusted_Connection=True;";
 
-        private readonly string connectionString = @"Data Source=ISARCH009740\WORKTEST;Initial Catalog=WPSPOrig;Integrated Security=False;User Id=WPSPUser;Password=Etaoni00_;MultipleActiveResultSets=True";
+        private readonly string connectionString = @"Data Source=xxxxx\WORKTEST;Initial Catalog=WPSPOrig;Integrated Security=False;User Id=xxxx;Password=xxxxx;MultipleActiveResultSets=True";
         // WPSPUser = Etaoni00_
 
         private SqlConnection sqlConnection;
