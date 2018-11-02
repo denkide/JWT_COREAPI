@@ -1,0 +1,11 @@
+C:\_apps\WPSPApi\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.0\WPSPApi.deps.json
+C:\_apps\WPSPApi\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.0\WPSPApi.runtimeconfig.json
+C:\_apps\WPSPApi\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.0\WPSPApi.runtimeconfig.dev.json
+C:\_apps\WPSPApi\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.0\WPSPApi.dll
+C:\_apps\WPSPApi\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.0\WPSPApi.pdb
+C:\_apps\WPSPApi\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\WPSPApi.csproj.CoreCompileInputs.cache
+C:\_apps\WPSPApi\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\WPSPApi.AssemblyInfoInputs.cache
+C:\_apps\WPSPApi\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\WPSPApi.AssemblyInfo.cs
+C:\_apps\WPSPApi\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\WPSPApi.dll
+C:\_apps\WPSPApi\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\WPSPApi.pdb
+C:\_apps\WPSPApi\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\WPSPApi.csprojAssemblyReference.cache
