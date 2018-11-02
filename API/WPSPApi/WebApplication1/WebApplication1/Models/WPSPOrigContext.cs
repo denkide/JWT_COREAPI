@@ -31,7 +31,7 @@ namespace WPSPApi.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer(@"Server=ISARCH009740\WORKTEST;Database=WPSPOrig;Trusted_Connection=True;");
+                optionsBuilder.UseSqlServer(@"Server=xxxxx\WORKTEST;Database=WPSPOrig;Trusted_Connection=True;");
             }
         }
 
