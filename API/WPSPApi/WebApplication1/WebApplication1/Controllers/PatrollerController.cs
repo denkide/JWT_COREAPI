@@ -16,10 +16,7 @@ namespace WPSPApi.Controllers
     public class PatrollerController : Controller
     {
         private IPatrollerDataProvider patrollerDataProvider;
-
-        // added
         private WPSPOrigContext _context { get; set; }
-
 
         public PatrollerController(IPatrollerDataProvider patrollerDataProvider)
         {
@@ -34,11 +31,7 @@ namespace WPSPApi.Controllers
 
             using (var ctx = new WPSPOrigContext())
             {
-                return ctx.Patroller.FromSql("SELECT * FROM Patroller", null).ToList();
-
-               //     .FromSql<Patroller>($"spGetPatrollers")
-               //     .ToList();
-                
+                return ctx.Patroller.FromSql("SELECT * FROM Patroller", null).ToList();                
             }
         }
 
