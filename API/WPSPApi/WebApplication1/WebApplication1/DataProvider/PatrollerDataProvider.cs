@@ -13,11 +13,9 @@ namespace WPSPApi.DataProvider
     public class PatrollerDataProvider : IPatrollerDataProvider
     {
         //private readonly string connectionString = @"Server=xxxxx\WORKTEST;Database=WPSPOrig;Trusted_Connection=True;";
-
         private readonly string connectionString = @"Data Source=xxxxx\WORKTEST;Initial Catalog=WPSPOrig;Integrated Security=False;User Id=xxxx;Password=xxxxx;MultipleActiveResultSets=True";
-        // WPSPUser = Etaoni00_
-
-        private SqlConnection sqlConnection;
+       
+        //private SqlConnection sqlConnection;
 
         public async Task AddPatroller(Patroller p)
         {
@@ -25,8 +23,7 @@ namespace WPSPApi.DataProvider
             {
                 await sqlConnection.OpenAsync();
                 var dynamicParameters = new DynamicParameters();
-
-
+                
                 dynamicParameters.Add("@skipatrolNumber", p.SkipatrolNumber);
                 dynamicParameters.Add("@lastName", p.LastName);
                 dynamicParameters.Add("@firstName", p.FirstName);
