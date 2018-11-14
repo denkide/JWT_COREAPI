@@ -66,8 +66,8 @@ namespace WebApplication1
                 options.AddPolicy("Member",
                     policy => policy.RequireClaim("MembershipId"));
             });
-            // -- added 
-
+            
+            // -- added sample code
             //// added for CORS suppor 
             //services.AddCors(options =>
             //{
@@ -80,8 +80,7 @@ namespace WebApplication1
             //          });
             //});
             //// July 6 2018
-
-
+            // --- end sample code
 
             // original 
             services.AddTransient<IPatrollerDataProvider, PatrollerDataProvider>();
@@ -91,12 +90,14 @@ namespace WebApplication1
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+            // -- added sample code
             ////string origin = "http://localhost:63635/";
             //EnableCorsAttribute cors = new EnableCorsAttribute("*", "*", "GET,POST");
 
             //HttpConfiguration config = Configuration as HttpConfiguration;
             //config.EnableCors(cors);
-
+            // --- end sample code
+            
             // added for Cors support
             // Shows UseCors with named policy.
             app.UseCors("AllowAllHeaders");
@@ -125,6 +126,9 @@ namespace WebApplication1
     }
 }
 
+
+// additional notes and sources:
+// -----------------------------------
 // see this for the sample walkthrough for the app scaffolding
 // https://medium.com/@maheshi.gunarathne1994/web-api-using-asp-net-core-2-0-and-entity-framework-core-with-mssql-59d30f33ff64 
 
